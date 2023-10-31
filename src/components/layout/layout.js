@@ -14,7 +14,7 @@ export default function Layout({ children, ...pageProps }) {
       <>
         <Top pageTitle={pageProps.pageTitle} pageName={pageProps.pageName} />         
         <Left />
-        <div className="pl-[118px] xl:pl-[128px] pr-4 pt-4 pb-6 ">
+        <div className="pl-[250px] pr-4 pt-4 pb-6 ">
           <main>
             {children}
             Content
